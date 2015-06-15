@@ -34,6 +34,7 @@ public class A154_FindMinimumInRotatedSortedArrayII {
     
     // clean code solution if repeat happens,
     // call for next point
+    // better performance
     public int findMin2(int[] nums) {
         
         return nums[find2(nums, 0, nums.length-1)];
