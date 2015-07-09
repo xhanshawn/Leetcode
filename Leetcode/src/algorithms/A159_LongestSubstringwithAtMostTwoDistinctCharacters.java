@@ -4,9 +4,9 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class A159LongestSubstringwithAtMostTwoDistinctCharacters {
+public class A159_LongestSubstringwithAtMostTwoDistinctCharacters {
 	public static void main (String[] args) {
-		A159LongestSubstringwithAtMostTwoDistinctCharacters a159 = new A159LongestSubstringwithAtMostTwoDistinctCharacters();
+		A159_LongestSubstringwithAtMostTwoDistinctCharacters a159 = new A159_LongestSubstringwithAtMostTwoDistinctCharacters();
 		System.out.println(a159.a159("eceeeeeee"));
 		System.out.println(a159.a159("eceaeeeee"));
 		System.out.println(a159.a159("abcddedddd"));
