@@ -43,6 +43,7 @@ public class A234_PalindromeLinkedList {
         	fst = fst.next;
         	sec = sec.next;
         }
+        
         return true;
     }
 	
