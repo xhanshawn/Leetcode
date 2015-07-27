@@ -21,6 +21,11 @@ public class ListNode {
     public static void printList(ListNode head) {
     	while(head != null) {
     		System.out.println("" + head.val);
+    		if(head.next == head) {
+    			System.out.println("Cycle" + head.val);
+    			break;
+    		}
+
     		head = head.next;
     	}
     }
