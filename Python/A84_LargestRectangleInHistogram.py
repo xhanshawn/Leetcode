@@ -14,6 +14,10 @@ class Solution:
                 if(res == 15): print x, "111"
             stack.append(x)
         return res
+    # Accepted solution. Stack
+    # keep elements in stack in non descending 
+    # when pop up calculate the area for that height
+
 
     # def largestRectangleArea(self, height):
     #     res = 0
